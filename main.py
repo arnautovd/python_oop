@@ -2,7 +2,7 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-from addon import Human
+from addon import Human, Girl
 
 
 def print_hi(name):
@@ -13,6 +13,9 @@ def print_hi(name):
 boy = Human('Dmitriy', 21, 'student')
 print(f'My name is {boy.name}. I am {boy.age}. I am a {boy.position}.')
 print(boy.calc(1, 22))
+
+girl = Girl('Stef', 20, 'student')
+girl.make_selfie()
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')

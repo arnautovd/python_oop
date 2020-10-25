@@ -18,3 +18,11 @@ class Human:
     @staticmethod
     def skip():
         print('I\'m skipping')
+
+
+class Girl(Human):
+
+    @staticmethod
+    def make_selfie():
+        print('I can make selfie with you')
+
