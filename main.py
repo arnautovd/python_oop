@@ -16,6 +16,7 @@ print(boy.calc(1, 22))
 
 girl = Girl('Stef', 20, 'student')
 girl.make_selfie()
+girl.make_a_borzh()
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')

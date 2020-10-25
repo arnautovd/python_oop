@@ -26,3 +26,8 @@ class Girl(Human):
     def make_selfie():
         print('I can make selfie with you')
 
+    @staticmethod
+    def make_a_borzh():
+        print('I like cooking')
+
+
